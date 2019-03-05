@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 # dotfiles
-=======
 # REQUIREMENTS
 
 * zsh
@@ -26,4 +24,3 @@ chmod +x install.sh
 ./install
 ```
 
->>>>>>> init dotfiles

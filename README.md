@@ -2,8 +2,8 @@
 # REQUIREMENTS
 
 * zsh
-* i3 
 * oh-my-zsh
+* fuzzy search
 
 # OPTIONAL
 

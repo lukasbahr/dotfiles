@@ -5,32 +5,27 @@
 " -------------------------------------------------------------------------------
 " Initialize plugin system
 " -------------------------------------------------------------------------------
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.local/share/nvim/plugged')
 
 	" Add base16 theme
 	Plug 'chriskempson/base16-vim'
 
-	" Add ack for file search
-	Plug 'mileszs/ack.vim'
-	let g:ackprg = 'ag --vimgrep'
-
 	" Add YCM for auto complete
 	Plug 'Valloric/YouCompleteMe', { 'do': 'python3 ./install.py --all' }
-
-	Plug 'ntpeters/vim-better-whitespace'
 
 	" Add lightline
 	Plug 'itchyny/lightline.vim'
 	let g:lightline = { 'colorscheme': 'wombat' }
+
+	" Add ack for file search
+	Plug 'mileszs/ack.vim'
+	let g:ackprg = 'ag --vimgrep'
 
 	" Add fuzzy search to enviroment
 	Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 
 	" Add fzf to vim
 	Plug 'junegunn/fzf.vim'
-
-	" Add sorround for brackets
-	Plug 'tpope/vim-surround'
 
 	" Add commeter to nvim
 	Plug 'scrooloose/nerdcommenter'
@@ -56,6 +51,9 @@ call plug#begin('~/.vim/plugged')
 	let g:autopep8_max_line_length=79
 	let g:autopep8_disable_show_diff=1
 
+	" Add better whitespace
+	Plug 'ntpeters/vim-better-whitespace'
+
 call plug#end()
 
 " ------------------------------------------------------------------------------
@@ -71,20 +69,19 @@ highlight Comment cterm=italic gui=italic
 " ------------------------------------------------------------------------------
 " Interface
 " -------------------------------------------------------------------------------
-syntax on
-
 set cursorline
 hi cursorline cterm=none term=none
 autocmd WinEnter * setlocal cursorline
 autocmd WinLeave * setlocal nocursorline
 highlight CursorLine guibg=#303000 ctermbg=234
 
+syntax on
 set hlsearch
 set incsearch
 set showcmd
 set cmdheight=2
 set autoread
-set nu
+set number
 set scrolloff=15
 set sidescrolloff=10
 set wildmenu
@@ -93,7 +90,6 @@ set nobackup nowritebackup noswapfile
 set smartcase
 set hidden
 set guicursor=
-
 
 " ------------------------------------------------------------------------------
 " Mapping
@@ -122,4 +118,3 @@ au BufNewFile,BufRead *.js,*.html,*.css,*.cpp,*.hh,*.cxx,*.md
     \ set tabstop=2 |
     \ set softtabstop=2 |
     \ set shiftwidth=2
-

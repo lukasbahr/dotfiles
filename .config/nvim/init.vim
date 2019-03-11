@@ -54,6 +54,9 @@ call plug#begin('~/.local/share/nvim/plugged')
 	" Add better whitespace
 	Plug 'ntpeters/vim-better-whitespace'
 
+	" Add vim support
+	Plug 'lervag/vimtex'
+
 call plug#end()
 
 " ------------------------------------------------------------------------------

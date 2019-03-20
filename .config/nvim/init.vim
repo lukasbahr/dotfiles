@@ -82,7 +82,6 @@ syntax on
 set hlsearch
 set incsearch
 set showcmd
-set cmdheight=2
 set autoread
 set number
 set scrolloff=15

@@ -104,6 +104,10 @@ nnoremap <leader>gg :YcmCompleter GoToDefinitionElseDeclaration<CR>
 nmap ; :Buffers<CR>
 nmap <Leader>t :Files<CR>
 nmap <Leader>r :Tags<CR>
+inoremap { {}<ESC>ha
+inoremap [ []<ESC>ha
+inoremap ( ()<ESC>ha
+
 
 " ------------------------------------------------------------------------------
 " File handling

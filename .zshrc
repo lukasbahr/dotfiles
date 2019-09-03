@@ -18,6 +18,8 @@ plugins=(
 	pip
 )
 
+alias vi="nvim"
+
 source $ZSH/oh-my-zsh.sh
 
 alias vi="nvim"

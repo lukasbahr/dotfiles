@@ -14,6 +14,8 @@ ZSH_THEME="robbyrussell"
 
 plugins=(
 	git
+	zsh-autosuggestions
+	zsh-syntax-highlighting
 	autojump
 	pip
 )

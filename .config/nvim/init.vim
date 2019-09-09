@@ -11,8 +11,9 @@ call plug#begin('~/.local/share/nvim/plugged')
 	Plug 'chriskempson/base16-vim'
 
 	" Add YCM for auto complete
-	Plug 'Valloric/YouCompleteMe', { 'do': 'python3 ./install.py --all' }
-	set completeopt-=preview
+	" Plug 'Valloric/YouCompleteMe', { 'do': 'python3 ./install.py --all' }
+	" set completeopt-=preview
+	Plug 'davidhalter/jedi-vim'
 
 	" Add lightline
 	Plug 'itchyny/lightline.vim'

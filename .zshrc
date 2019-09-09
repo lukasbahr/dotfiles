@@ -9,7 +9,7 @@ plugins=(
 	git
 	zsh-autosuggestions
 	zsh-syntax-highlighting
-	autojump
+	# autojump
 	pip
 )
 
@@ -59,11 +59,11 @@ __conda_setup="$(CONDA_REPORT_ERRORS=false '/anaconda3/bin/conda' shell.bash hoo
 if [ $? -eq 0 ]; then
     \eval "$__conda_setup"
 else
-    if [ -f "/anaconda3/etc/profile.d/conda.sh" ]; then
+    if [ -f "$HOME/anaconda3/etc/profile.d/conda.sh" ]; then
 # . "/anaconda3/etc/profile.d/conda.sh"  # commented out by conda initialize
         CONDA_CHANGEPS1=false conda activate base
     else
-        \export PATH="/anaconda3/bin:$PATH"
+        \export PATH="$HOME/anaconda3/bin:$PATH"
     fi
 fi
 unset __conda_setup

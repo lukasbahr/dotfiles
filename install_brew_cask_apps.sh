@@ -20,8 +20,13 @@ brew update
 brew upgrade --all
 
 # Install my brew packages
+brew install zsh
 brew install wget
 brew install neovim
+brew install base16-manager
+brew install tree
+brew install ack
+brew install fzf
 
 # Install cask
 brew tap phinze/homebrew-cask

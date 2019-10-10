@@ -21,6 +21,7 @@ brew upgrade --all
 
 # Install my brew packages
 brew install wget
+brew install neovim
 
 # Install cask
 brew tap phinze/homebrew-cask
@@ -35,7 +36,7 @@ brew cask install lastpass
 brew cask install notion
 brew cask install sync-my-l2p
 brew cask install spotify
-
+brew cask install kitty
 
 # Remove brew cruft
 brew cleanup

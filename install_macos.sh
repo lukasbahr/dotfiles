@@ -7,6 +7,7 @@
 dir=~/dotfiles			  # dotfiles directory
 olddir=~/dotfiles_old		  # old dotfiles backup directory
 files="	.config/nvim
+	.config/tmux
 	.config/kitty
 	.zshrc"
 

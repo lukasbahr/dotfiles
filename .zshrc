@@ -7,10 +7,10 @@ export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME=""
 plugins=(
 	git
-	zsh-autosuggestions
-	zsh-syntax-highlighting
+	# zsh-autosuggestions
+	# zsh-syntax-highlighting
 	# autojump
-	pip
+	# pip
 )
 
 source $ZSH/oh-my-zsh.sh

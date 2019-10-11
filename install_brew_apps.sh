@@ -17,7 +17,7 @@ fi
 brew update
 
 # Upgrade any already installed formulae
-brew upgrade --all
+# brew update && brew upgrade `brew outdated`
 
 # Install my brew packages
 brew install zsh

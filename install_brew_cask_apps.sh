@@ -27,6 +27,7 @@ brew install base16-manager
 brew install tree
 brew install ack
 brew install fzf
+brew install tmux
 
 # Install cask
 brew tap phinze/homebrew-cask
@@ -42,6 +43,7 @@ brew cask install notion
 brew cask install sync-my-l2p
 brew cask install spotify
 brew cask install kitty
+brew cask install electrum
 
 # Remove brew cruft
 brew cleanup

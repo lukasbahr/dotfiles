@@ -9,6 +9,7 @@
 
 * neovim 
 * base16
+* pure 
 
 # INSTALLATION
 

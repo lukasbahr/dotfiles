@@ -20,12 +20,10 @@ brew update
 # brew update && brew upgrade `brew outdated`
 
 # Install my brew packages
-brew install zsh
 brew install wget
 brew install neovim
-brew install base16-manager
 brew install tree
-brew install ack
+brew install the_silver_searcher
 brew install fzf
 brew install tmux
 

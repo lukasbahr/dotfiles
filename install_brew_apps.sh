@@ -42,6 +42,7 @@ brew cask install sync-my-l2p
 brew cask install spotify
 brew cask install kitty
 brew cask install electrum
+brew cask install figma
 
 # Remove brew cruft
 brew cleanup

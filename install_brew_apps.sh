@@ -43,6 +43,7 @@ brew cask install spotify
 brew cask install kitty
 brew cask install electrum
 brew cask install figma
+brew cask install macs-fan-control
 
 # Remove brew cruft
 brew cleanup

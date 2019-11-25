@@ -7,58 +7,57 @@
 " -------------------------------------------------------------------------------
 call plug#begin('~/.local/share/nvim/plugged')
 
-	" Add base16 theme
-	Plug 'chriskempson/base16-vim'
+       	 " Add base16 theme
+	 Plug 'chriskempson/base16-vim'
 
-	" Add YCM for auto complete
-	" Plug 'Valloric/YouCompleteMe', { 'do': 'python3 ./install.py --all' }
-	" set completeopt-=preview
-	Plug 'davidhalter/jedi-vim'
+	 " Add YCM for auto complete
+	 " Plug 'Valloric/YouCompleteMe', { 'do': 'python3 ./install.py --all' }
+	 " set completeopt-=preview
+	 Plug 'davidhalter/jedi-vim'
 
-	" Add lightline
-	Plug 'itchyny/lightline.vim'
-	let g:lightline = { 'colorscheme': 'wombat' }
+	 " Add lightline
+	 Plug 'itchyny/lightline.vim'
+	 let g:lightline = { 'colorscheme': 'wombat' }
 
-	" Add ack for file search
-	Plug 'mileszs/ack.vim'
-	let g:ackprg = 'ag --vimgrep'
+	 " Add ack for file search
+	 Plug 'mileszs/ack.vim'
+	 let g:ackprg = 'ag --vimgrep'
 
-	" Add fuzzy search to enviroment
-	Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+	 " Add fuzzy search to enviroment
+	 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 
-	" Add fzf to vim
-	Plug 'junegunn/fzf.vim'
+	 " Add fzf to vim
+	 Plug 'junegunn/fzf.vim'
 
-	" Add commeter to nvim
-	Plug 'scrooloose/nerdcommenter'
-	" Add spaces after comment delimiters by default
-	let g:NERDSpaceDelims = 1
-	" Use compact syntax for prettified multi-line comments
-	let g:NERDCompactSexyComs = 1
-	" Align line-wise comment delimiters flush left instead of following code indentation
-	let g:NERDDefaultAlign = 'left'
-	" Set a language to use its alternate delimiters by default
-	let g:NERDAltDelims_java = 1
-	" Add your own custom formats or override the defaults
-	let g:NERDCustomDelimiters = { 'c': { 'left': '/**','right': '*/' } }
-	" Allow commenting and inverting empty lines (useful when commenting a region)
-	let g:NERDCommentEmptyLines = 1
-	" Enable trimming of trailing whitespace when uncommenting
-	let g:NERDTrimTrailingWhitespace = 1
-	" Enable NERDCommenterToggle to check all selected lines is commented or not
-	let g:NERDToggleCheckAllLines = 1
+	 " Add commeter to nvim
+	 Plug 'scrooloose/nerdcommenter'
+	 " Add spaces after comment delimiters by default
+	 let g:NERDSpaceDelims = 1
+	 " Use compact syntax for prettified multi-line comments
+	 let g:NERDCompactSexyComs = 1
+	 " Align line-wise comment delimiters flush left instead of following code indentation
+	 let g:NERDDefaultAlign = 'left'
+	 " Set a language to use its alternate delimiters by default
+	 let g:NERDAltDelims_java = 1
+	 " Add your own custom formats or override the defaults
+	 let g:NERDCustomDelimiters = { 'c': { 'left': '/**','right': '*/' } }
+	 " Allow commenting and inverting empty lines (useful when commenting a region)
+	 let g:NERDCommentEmptyLines = 1
+	 " Enable trimming of trailing whitespace when uncommenting
+	 let g:NERDTrimTrailingWhitespace = 1
+	 " Enable NERDCommenterToggle to check all selected lines is commented or not
+	 let g:NERDToggleCheckAllLines = 1
 
-	" Add autopep8 to vim
-	Plug 'tell-k/vim-autopep8'
-	let g:autopep8_max_line_length=79
-	let g:autopep8_disable_show_diff=1
+	 " Add autopep8 to vim
+	 Plug 'tell-k/vim-autopep8'
+	 let g:autopep8_max_line_length=79
+	 let g:autopep8_disable_show_diff=1
 
-	" Add better whitespace
-	Plug 'ntpeters/vim-better-whitespace'
+	 " Add better whitespace
+	 Plug 'ntpeters/vim-better-whitespace'
 
-	" Add vim support
-	Plug 'lervag/vimtex'
-
+	 " Add vim support
+	 Plug 'lervag/vimtex'
 
 call plug#end()
 

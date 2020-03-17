@@ -10,10 +10,12 @@ call plug#begin('~/.local/share/nvim/plugged')
        	 " Add base16 theme
 	 Plug 'chriskempson/base16-vim'
 
+	 Plug 'zxqfl/tabnine-vim'
+
 	 " Add YCM for auto complete
 	 " Plug 'Valloric/YouCompleteMe', { 'do': 'python3 ./install.py --all' }
 	 " set completeopt-=preview
-	 Plug 'davidhalter/jedi-vim'
+	 " Plug 'davidhalter/jedi-vim'
 
 	 " Add lightline
 	 Plug 'itchyny/lightline.vim'

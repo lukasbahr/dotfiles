@@ -13,12 +13,11 @@ plugins=(
 	# pip
 )
 
-source $ZSH/oh-my-zsh.sh
-
 
 # ============================================================================
 # Theme
 # ============================================================================
+ZSH_THEME=minimal
 
 # Base 16
 BASE16_SHELL="$HOME/.config/base16-shell/"
@@ -26,11 +25,7 @@ BASE16_SHELL="$HOME/.config/base16-shell/"
     [ -s "$BASE16_SHELL/profile_helper.sh" ] && \
         eval "$("$BASE16_SHELL/profile_helper.sh")"
 
-# Pure
-export FPATH=$HOME/.zsh/pure:$FPATH
-autoload -U promptinit; promptinit
-prompt pure
-
+source $ZSH/oh-my-zsh.sh
 
 # ============================================================================
 # Alias

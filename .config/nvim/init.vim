@@ -140,3 +140,11 @@ au BufNewFile,BufRead *.js,*.html,*.css,*.cpp,*.hh,*.cxx,*.md,*.cc,*.php
 			\ set tabstop=4 |
 			\ set softtabstop=4 |
 			\ set shiftwidth=4
+
+au BufNewFile,BufRead *.ejs set filetype=html
+
+au BufNewFile,BufRead *.html
+			\ set tabstop=2 |
+			\ set softtabstop=2 |
+			\ set shiftwidth=2
+
